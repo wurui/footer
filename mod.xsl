@@ -2,9 +2,11 @@
     <xsl:template match="/root" name="wurui.footer">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-footer" ox-mod="footer">
-            <h1>
-                This is mod footer;
-            </h1>
+            <xsl:for-each select="data/string-list/i">
+            	<p>
+            		<xsl:value-of select="."/>
+            	</p>
+            </xsl:for-each>
         </div>
     </xsl:template>
 </xsl:stylesheet>
