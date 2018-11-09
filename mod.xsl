@@ -2,7 +2,7 @@
     <xsl:template match="/root" name="wurui.footer">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-footer" ox-mod="footer">
-            <xsl:for-each select="data/string-list/i">
+            <xsl:for-each select="data/ui-texts/i">
             	<p>
             		<xsl:value-of select="."/>
             	</p>

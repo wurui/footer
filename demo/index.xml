@@ -14,9 +14,9 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-        <string-list>
+        <ui-texts>
             <i>Copyright © 2018 杭州声罄科技有限公司</i>
             <i>浙ICP备15031769号-1 </i>
-        </string-list>
+        </ui-texts>
     </data>
 </root>
