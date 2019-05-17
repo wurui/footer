@@ -2,11 +2,12 @@
     <xsl:template match="/root" name="wurui.footer">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-footer" ox-mod="footer">
-            <xsl:for-each select="data/ui-texts/i">
-            	<p>
-            		<xsl:value-of select="."/>
-            	</p>
-            </xsl:for-each>
+        	<p>
+        		© <xsl:value-of select="data/the-site/copyright"/> 版权所有
+        	</p>
+            <p>
+                <xsl:value-of select="data/the-site/icp"/>
+            </p>
         </div>
     </xsl:template>
 </xsl:stylesheet>
